@@ -1,0 +1,34 @@
+﻿DCN Journal
+Date : 15/02/2023
+Practical 1
+1.	Introduction to linux environment and related system programming.
+a.	Installation and configuration of linux.
+b.	Install vmware/virtual box.
+
+Step 1: Download and install suitable virtual box.
+
+Step 2: Donwload ISO file of linux mint 17 or any other linux versions (Stable and recent version)
+Step 3: Create a new virtual machine inside virtual box
+-	Allocate enough ram
+-	Create virtual hard drive (fixed or dynamic size, fixed is preferable)
+Step 4: Start linux
+Step 5: Mox Linux version already have gcc package insalled. Start terminal and check version with command.
+	gcc --version
+You can use following few commands to install or update package
+	Sudo apt install gcc
+	Sudo apt update gcc
+Step 6: The package name for the C standard library is “libc6”. Its header files are in the development package: libc6-dev. Some linux distribution do not have the development package installed. You need to install it yourself:
+	Sudo apt install libc6-dev
+Step 7: From the terminal, start built-in editor using command
+	Gedit
+Step 8: Type the following test-code and save the file on default userpath as “test.c”
+	#include <stdio.h>
+	Int main ()
+	{
+		printf(“Hello, World!”);
+		return 0;
+	}
+Step 9: Compile the file using the following line of command (This will create an object code):
+	gcc -o out test.c
+Step 10: Execute the object code with command
+	./out

@@ -1,0 +1,58 @@
+Topic : Perform basic command of linux. 
+Demonstrate "vi" editor.
+
+task : 
+list out the commands and their options, along with pratical
+touch: 
+create an empty file.
+	syntax : touch filesname.extension
+
+
+pwd: returns present working directory
+
+ls: 
+shows list of files and directories
+ls -l
+
+chmod: sets the permission
+
+who: gives user and login time
+
+whoami:
+gives username
+
+w: lists all the user 
+
+ps: lists all the processor
+
+cat: shows the content of file in terminal
+cat > : 
+writes the content in the file
+
+ctrl + c: 
+terminal interrupt
+
+cp : to copy files
+
+rm : to remove files
+
+mkdir : to create a directory
+
+mv : to move or rename any file
+
+cd : to chnage directory
+
+grep: search any text in the given file
+
+apt:
+	update
+	upgrade
+	install
+	remove
+	
+cal : calander
+
+date: date and time
+
+file: to check the format of file
+

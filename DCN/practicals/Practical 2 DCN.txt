@@ -1,0 +1,56 @@
+Topic : Explore directory structure of LINUX file system. 
+Understand and represent file system of LINUX with brief details.
+
+
+1. root: root directory is the main directory of linux, not accessible even by admin user, and it contains linux kernel files.
+
+
+2. home: it is the main user directory where Desktop, Documents, Downloads, Music, Pictures, Template and Video files of users will be stored. In the same directory, terminal will have default prompt to this directory.
+
+
+3. bin: this directory contains binary executable files to run different commands on linux. bin directory have user related linux command files, which can be executed by user using linux terminal.
+
+
+4. sbin: This directory contains system related binary executable command files.
+
+
+5. boot: This directory have programs and system files to perform loading and booting process for linux operating system.
+
+
+6. dev (device): This directory contains important device related files such as drivers or driver files, peripheral command files, etc.
+	For Example: cpu, disk, bus, dri etc are the sub-directory available in it.
+
+
+7. media: multimedia files can be accessed or stored in this directory.
+
+
+8. lib: All installed system libraries can be accessible from lib directory. example: gcc, firefox, python, init, gnome.
+
+
+9. cdrom: This directory is related to optical drives that will be inserted in linux OS, such as CD, DVD etc.
+
+
+10. usr: It is the user directory, which have all the installed programs, applications and softwares. This is similar to Program files folder of Windows.  
+
+
+Linux directory structure
+
+/ --->	/boot	---->	Boot loader files
+	/etc	---->	Configuration files
+	/home	---->	User home Directories
+	/root	---->	root home directory
+	/opt	---->	Third-party application
+	/dev	---->	Device files
+	/var	---->	Variable files
+	/bin	---->	User binaries
+	/sbin	---->	System binaries
+	/usr	---->	user applications
+	/proc	---->	Process information
+	/mnt	---->	mount directory
+	/sys	---->	virtual file system
+	/media	---->	removable device
+	/run	---->	Temporary files
+	/lib	---->	System libraries
+	/srv	---->	Service data directory
+	
+

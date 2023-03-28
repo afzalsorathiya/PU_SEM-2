@@ -1,0 +1,17 @@
+Introduction to pipes and related system calls for pipe management.
+
+
+create a file, write "This is first file" and close.
+
+create another file, use cat > first.txt > second.txt to copy the content of first to second.
+
+
+pipe symbol |, sends output of one command to another command as input
+
+cat first.txt | cat > second.txt
+
+// Piping example
+ code is in the C code dir. check vs code
+ 
+ // output
+ hello how are you
